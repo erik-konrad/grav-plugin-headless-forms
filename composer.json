@@ -1,0 +1,29 @@
+{
+  "name": "erik-konrad/headless-forms",
+  "type": "grav-plugin",
+  "description": "Save form data on headless REST api servers",
+  "keywords": ["plugin"],
+  "homepage": "https://github.com/erik-konrad/grav-plugin-headless-forms",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Erik Konrad",
+      "email": "erik.konrad@zebra.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Grav\\Plugin\\HeadlessForms\\": "classes/"
+    },
+    "classmap":  ["headless-forms.php"]
+  },
+  "config": {
+    "platform": {
+      "php": "7.1.3"
+    }
+  }
+}
