@@ -1,17 +1,17 @@
-name: Headless Forms
-slug: headless-forms
+name: Mail Validator
+slug: mail-validator
 type: plugin
 version: 0.1.0
-description: Save form data on headless REST api servers
+description: Validates if a mail address exists in SendInBlue or not
 icon: plug
 author:
   name: Erik Konrad
   email: erik.konrad@zebra.de
-homepage: https://github.com/erik-konrad/grav-plugin-headless-forms
+homepage: https://github.com/zebra-group/grav-plugin-mail-validator
 demo: http://demo.yoursite.com
 keywords: grav, plugin, etc
-bugs: https://github.com/erik-konrad/grav-plugin-headless-forms/issues
-docs: https://github.com/erik-konrad/grav-plugin-headless-forms/blob/develop/README.md
+bugs: https://github.com/zebra-group/grav-plugin-mail-validator/issues
+docs: https://github.com/zebra-group/grav-plugin-mail-validator/blob/develop/README.md
 license: MIT
 
 dependencies:
@@ -30,7 +30,7 @@ form:
         0: PLUGIN_ADMIN.DISABLED
       validate:
         type: bool
-    text_var:
+    api_key:
       type: text
-      label: PLUGIN_HEADLESS_FORMS.TEXT_VARIABLE
-      help: PLUGIN_HEADLESS_FORMS.TEXT_VARIABLE_HELP
+      label: SendInBlue API Key
+      help: SendInBlue API Key

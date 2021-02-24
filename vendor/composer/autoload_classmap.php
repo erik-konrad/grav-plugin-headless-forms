@@ -6,5 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Grav\\Plugin\\HeadlessFormsPlugin' => $baseDir . '/headless-forms.php',
+    'Grav\\Plugin\\MailValidatorPlugin' => $baseDir . '/mail-validator.php',
+    'Normalizer' => $vendorDir . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
 );

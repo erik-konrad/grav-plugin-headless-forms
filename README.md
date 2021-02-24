@@ -1,6 +1,6 @@
-# Headless Forms Plugin
+# Mail Validator Plugin
 
-**This README.md file should be modified to describe the features, installation, configuration, and general usage of the plugin.**
+**This plugin validates if an email is in contact list in SendinBlue or not**
 
 The **Headless Forms** Plugin is an extension for [Grav CMS](http://github.com/getgrav/grav). Save form data on headless REST api servers
 
@@ -38,19 +38,14 @@ Here is the default configuration and an explanation of available options:
 
 ```yaml
 enabled: true
+api_key: send-in-blue-api-key
 ```
 
 Note that if you use the Admin Plugin, a file with your configuration named headless-forms.yaml will be saved in the `user/config/plugins/`-folder once the configuration is saved in the Admin.
 
 ## Usage
 
-**Describe how to use the plugin.**
+**Calling the Webhook http://your.site/mail-validation?mail=look.for@mailadress.com returns if the mail you are looking for is in the contact list or if not**
 
-## Credits
 
-**Did you incorporate third-party code? Want to thank somebody?**
-
-## To Do
-
-- [ ] Future plans, if any
 
